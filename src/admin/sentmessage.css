@@ -4,38 +4,32 @@
     box-sizing: border-box;
 
 }
-#main-addemp{
+#main-sentmp{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
+    background-image: linear-gradient(rgb(247, 113, 113),rgb(112, 112, 242),rgb(92, 90, 90));
     /* margin: 1rem; */
-    /* border: 1px solid black; */
-    height: 488px;
-    background-image: linear-gradient(rgb(248, 206, 213),rgb(243, 161, 175),rgb(244, 244, 54));
-    
-    
 }
-#addemp{
+#sentmp{
   background-color: rgb(240, 240, 240);
   width: 500px;
-  height: 300px;
+  height: 750px;
   display: flex;
-  border: 1px solid black;
+border: 1px solid black;
 border-radius: 10px;
   justify-content: center;
-  /* margin-bottom: 20px; */
-  position: relative;
-  bottom: 50px;
 
 }
-#addemp-content{
+#sentmp-content{
     text-align: center;
     font-weight: 900;
 }
 #name{
     width: 400px; 
 }
-#addemp-button{
+#sentmp-button{
     width: 80px;
     height: 25px;
     position: relative;

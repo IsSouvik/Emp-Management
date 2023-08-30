@@ -7,11 +7,15 @@ const Navbar = () => {
     <div>Logo</div>
     <div >
         <ul id='nav-ul'>
-        <li className='nav-li'><Link to={'/admindashboard'}>Admin Dashboard</Link></li>
-         <li className='nav-li'><Link>Home</Link></li>
-         <li className='nav-li'><Link>Attendence</Link></li>
-         <li className='nav-li'><Link>Message</Link></li>
-         <li className='nav-li'><Link>Profile</Link></li>
+        {/* <li className='nav-li'><Link to={'/admindashboard'}>Admin Dashboard</Link></li> */}
+         <li className='nav-li'><Link to={'/admin/adminhome'}>Home</Link></li>
+         <li className='nav-li'><Link to={'/admin/viewattendence'}>Attendence</Link></li>
+         <li className='nav-li'><Link to={'/admin/viewmessage'}>Message</Link></li>
+         <li className='nav-li'><Link>Add Project</Link></li>
+         {/* <li className='nav-li'><Link>Profile</Link></li> */}
+         <li className='nav-li'><Link to={'/admin/addemp'}>Add Employee</Link></li>
+        <li className='nav-li'><Link to={"/admin/viewemp"}>View Employee</Link></li>
+        <li className='nav-li'><Link to={'/admin/sentmessageproject'}>Sent Message/Project</Link></li>
          <li className='nav-li'><Link>Logout</Link></li>
         </ul>
     </div>

@@ -4,13 +4,13 @@
     box-sizing: border-box;
 
 }
-#main-adminlogin{
+#main-userlogin{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 5rem;
 }
-#admin-login{
+#user-login{
   background-color: rgb(240, 240, 240);
   width: 500px;
   height: 200px;
@@ -19,7 +19,7 @@
   justify-content: center;
 
 }
-#adminlogin-content{
+#userlogin-content{
     text-align: center;
     font-weight: 900;
 }
@@ -29,26 +29,10 @@
 #password{
     width: 400px;
 }
-#adminlogin-button{
+#userlogin-button{
     width: 80px;
     height: 25px;
     position: relative;
     left: 145px;
     top: 10px;
 }
-.message {
-    margin-top: 10px;
-    text-align: center;
-    font-size: 20px;
-  }
-  .input {
-    width: 100%;
-    padding: 10px;
-    margin: 5px 0;
-    border: none;
-    border-bottom: 1px solid #000;
-    background: transparent;
-    outline: none;
-    font-size: 16px;
-    box-sizing: border-box;
-  }  
