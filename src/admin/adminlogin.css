@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+#main-adminlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+#admin-login{
+  background-color: rgb(240, 240, 240);
+  width: 500px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#adminlogin-content{
+    text-align: center;
+    font-weight: 900;
+}
+#email{
+    width: 400px;
+}
+#password{
+    width: 400px;
+}
+#adminlogin-button{
+    width: 80px;
+    height: 25px;
+    position: relative;
+    left: 145px;
+    top: 10px;
+}

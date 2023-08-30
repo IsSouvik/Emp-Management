@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#main-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  width: 100vw;
+  background-color:rgb(184, 176, 176);
+  padding: 10px;
+
+}
+#nav-ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+a{
+    text-decoration: none;
+}
+.nav-li{
+    list-style: none;
+}
